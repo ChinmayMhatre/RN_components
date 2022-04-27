@@ -9,14 +9,14 @@ export default function App() {
       {/* Add one more text field */}
       <Button
         title="Press me"
-        onPress={() => Alert.alert('Simple Button pressed')}
+        onPress={() => alert('Simple Button pressed')}
       />
       {/* Add a button */}
       <Image
         source={require('./assets/favicon.png')}
         />
       {/* Add an image using splash.png */}
-      <TouchableOpacity onPress={() => Alert.alert('You tapped the button!')}>
+      <TouchableOpacity onPress={() => alert('You tapped the button!')}>
         <Text>TouchableOpacity</Text>
       </TouchableOpacity>
       {/* Add another touchable */}
